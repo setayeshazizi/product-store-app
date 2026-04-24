@@ -241,7 +241,6 @@ src/
 npm install
 npm run dev
 
----
 
  Future Improvements
 
