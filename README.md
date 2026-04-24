@@ -31,7 +31,7 @@ This project simulates a real-world luxury digital store experience with a premi
 ![home](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-2026-04-24-19_52_07.png)
 
 ### Cart Page
-![Cart](./screenshots/cart.png)
+![Cart](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-cart-2026-04-24-19_52_53.png)
 
 ### Product Details
 ![Details](./screenshots/details.png)
