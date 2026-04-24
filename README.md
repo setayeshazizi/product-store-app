@@ -239,12 +239,19 @@ src/
 
 ---
 
-## How to Run Project
+### How to run:
 
-```
+1. Navigate to the Folder
+```bash
+cd product-store-app
+
+1. Install dependencies
 npm install
+
+1. Run the Project
 npm run dev
-```
+
+And open the localhost on your browser.
 
  ### Future Improvements
 Authentication system
