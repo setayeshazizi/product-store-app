@@ -241,9 +241,10 @@ src/
 
 ## How to Run Project
 
-```bash
+```
 npm install
 npm run dev
+```
 
  Future Improvements
 Authentication system
