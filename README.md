@@ -246,12 +246,14 @@ npm install
 npm run dev
 ```
 
- Future Improvements
+ ###Future Improvements
+ 
 Authentication system
 Real payment gateway (Stripe)
 Admin dashboard
 Backend integration (Node/Express)
 Product reviews system
 
- License
+ ###License
+ 
 This project is for educational purposes and assignment submission.
