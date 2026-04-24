@@ -6,7 +6,7 @@ Designed to demonstrate real-world frontend engineering patterns including state
 ---
 
 ##  Live Demo
-🔗 [View Live Project](#) *((https://product-store-app-tau.vercel.app/))*
+🔗 [View Live Project](https://product-store-app-tau.vercel.app/)
 
 ---
 
