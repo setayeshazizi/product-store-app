@@ -18,7 +18,7 @@ This project simulates a real-world luxury digital store experience with a premi
 
 ## Demo Video
 
-📽️ *[demo](https://youtu.be/ago4MJG99HM?feature=shared)*
+📽️ *(https://youtu.be/ago4MJG99HM?feature=shared)*
 
 ---
 
