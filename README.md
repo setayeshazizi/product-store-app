@@ -252,6 +252,9 @@ npm run dev
 
 And open the localhost on your browser.
 ```
+
+---
+
  ### Future Improvements
 Authentication system
 Real payment gateway (Stripe)
