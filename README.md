@@ -18,7 +18,7 @@ This project simulates a real-world luxury digital store experience with a premi
 
 ## Demo Video
 
-📽️ *(https://youtu.be/ago4MJG99HM?feature=shared)*
+📽️ *https://youtu.be/ago4MJG99HM?feature=shared*
 
 ---
 
@@ -247,7 +247,6 @@ npm run dev
 ```
 
  ### Future Improvements
- 
 Authentication system
 Real payment gateway (Stripe)
 Admin dashboard
@@ -255,5 +254,4 @@ Backend integration (Node/Express)
 Product reviews system
 
  ### License
- 
 This project is for educational purposes and assignment submission.
