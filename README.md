@@ -245,8 +245,6 @@ src/
 npm install
 npm run dev
 
-__________
-
  Future Improvements
 Authentication system
 Real payment gateway (Stripe)
