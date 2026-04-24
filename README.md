@@ -1,4 +1,4 @@
-#💎LUXSTORE —  Product Store App
+# 💎LUXSTORE —  Product Store App
 
 A modern, high-performance React e-commerce application built as a full assignment project to demonstrate advanced state management concepts using:
 
