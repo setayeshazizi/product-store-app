@@ -95,4 +95,69 @@ Managed via Redux Toolkit
 
 ---
 
-## 🧩 Folder Structure
+## Folder Structure
+src/
+│
+├── api/              # API services
+├── components/       # Reusable UI components
+├── context/          # Theme & UI state management
+├── features/
+│   └── cart/         # Redux cart slice
+├── hooks/            # Custom hooks
+├── pages/            # Route pages
+├── store/            # Redux store
+└── utils/            # Helpers (e.g. calculateTotals)
+---
+
+##  Performance Highlights
+
+- React Query caching strategy optimized
+- Lazy UI rendering with animation batching
+- LocalStorage sync without UI blocking
+- Minimal prop drilling (fully decoupled state)
+- Optimized re-renders via Redux selectors
+
+---
+
+##  Key UI Highlights
+
+- Glassmorphism Navbar with animated diamond logo
+-  Skeleton loaders with shimmer effect
+- Animated badges & hover transitions
+-  Product cards with stagger animation
+-  Sticky order summary in cart
+-  Success animation after checkout
+
+---
+
+##  Responsive Design
+
+Fully responsive across:
+-  Mobile
+- Tablet
+-  Laptop
+-  Desktop (up to 4K)
+
+---
+
+## API
+
+Powered by:
+- DummyJSON Products API  
+https://dummyjson.com/products
+
+---
+
+##  Future Improvements
+
+- Stripe real payment integration
+- User authentication system
+- Backend for orders
+- Product reviews system
+- Admin dashboard
+
+---
+
+##  License
+
+This project is licensed for educational and portfolio purposes.
