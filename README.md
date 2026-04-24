@@ -1,40 +1,98 @@
-Product App Store
+# 💎 LUXSTORE —  Product Store
 
-A high-performance, visually stunning e-commerce application built with the MERN stack (React-based) focusing on luxury UI/UX, scalable state management, and fluid motion design.
+A modern, high-performance React-based luxury e-commerce UI built with a scalable architecture, advanced state management, and premium UI/UX interactions.  
+Designed to demonstrate real-world frontend engineering patterns including state separation, async data handling, and production-grade UI design systems.
 
+---
 
- Live Project (https://your-vercel-link.vercel.app/) | Report Bug (https://github.com/your-username/repo/issues)
+##  Live Demo
+🔗 [View Live Project](#) *(add your Vercel link here)*
 
-___________________________________________________________________________________________________
+---
 
-🛠 Technical Excellence
+##  Tech Stack
 
-This project demonstrates a professional-grade frontend architecture using the following stack:
+-  React (Vite)
+- Material UI v9
+-  Framer Motion
+-  TanStack React Query v5
+-  Redux Toolkit
+-  Context API + useReducer
+-  LocalStorage Persistence
+-  DummyJSON API
+-  Vercel Deployment
 
-• Core: React 18 with Vite (for lightning-fast HMR).
+---
 
-• State Management: Redux Toolkit (RTK) for global state & Context API for lightweight UI states.
+## Architecture Overview
 
-• Data Fetching: React Query (TanStack Query) for server-state synchronization and caching.
+This project is built using a 3-layer state management architecture:
 
-• Styling & UI: Tailwind CSS & Material UI (MUI).
+### 1. Global UI State
+Handled via Context API + useReducer
+- Theme (Dark / Light Mode)
+- Grid / List view toggle
+- UI preferences
 
-• Animations: Framer Motion (orchestrated layouts and glassmorphism effects).
+### 2. Server State
+Managed by TanStack React Query
+- Product fetching from DummyJSON API
+- Smart caching (staleTime, gcTime)
+- Retry handling with delay strategy
+- Auto refetch on reconnect
+- Skeleton loading system
 
-• Icons: Lucide-React / Phosphor Icons.
-______________________________________________________________________________________________________
+### 3. Client State
+Managed via Redux Toolkit
+- Cart system (add/remove/update quantity)
+- Total price & quantity calculations
+- Persistent storage via localStorage
 
-💎 Features & Functionalities
+---
 
-• Sophisticated UI: Implementation of Glassmorphism and premium minimalist aesthetics.
+## Features
 
+### UI/UX
+- Dark / Light theme toggle
+- Glassmorphism design system
+- Fully responsive layout (mobile → 4K)
+- Smooth Framer Motion animations
+- Staggered product animations
+- Skeleton loading states
+- Premium alert & snackbar system
 
-• Dynamic Product Grid: Custom CSS Grid logic providing a perfectly balanced 5-column layout.
+###  Shopping Experience
+- Add / remove products from cart
+- Quantity management (+ / -)
+- Persistent cart (localStorage)
+- Wishlist system
+- Related products section
 
-• Advanced Filtering: Real-time category filtering and product search.
+###  Product System
+- Category filtering (9 categories)
+- Grid / List view toggle
+- Sorting functionality
+- Product search bar
+- Rating system with badges
 
-• State-of-the-Art Cart: Fully functional shopping cart with persistent storage and optimized re-renders.
+###  Checkout Flow
+- 3-step checkout process:
+  1. Shipping details
+  2. Payment details
+  3. Order confirmation
+- Order summary sidebar
+- Final success animation screen
 
-• Smooth Navigation: Seamless page transitions and interactive micro-interactions.
+---
 
-• Responsive Architecture: Mobile-first design ensuring 100% compatibility across all screen sizes.
+## Pages
+
+-  Home (Hero + Filters + Product Grid)
+- Product Details
+-  Cart
+- Checkout (Multi-step)
+-  Success Page
+
+---
+
+## 🧩 Folder Structure
