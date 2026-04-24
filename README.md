@@ -2,9 +2,11 @@ Product App Store
 
 A high-performance, visually stunning e-commerce application built with the MERN stack (React-based) focusing on luxury UI/UX, scalable state management, and fluid motion design.
 
-⚡ Live Demo
+ Live Demo
 
 View Live Project (https://your-vercel-link.vercel.app/) | Report Bug (https://github.com/your-username/repo/issues)
+
+___________________________________________________________________________________________________
 
 🛠 Technical Excellence
 
