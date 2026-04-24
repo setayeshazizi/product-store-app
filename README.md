@@ -214,7 +214,8 @@ Used for:
 ---
 
 ## Folder Structure
-`src/
+```
+src/
 │
 ├── api/
 ├── components/
@@ -225,7 +226,8 @@ Used for:
 ├── pages/
 ├── store/
 ├── utils/
-└── App.jsx`
+└── App.jsx
+```
 
 ---
 
