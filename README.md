@@ -38,7 +38,7 @@ This project simulates a real-world luxury digital store experience with a premi
 ![Details](./screenshots/details.png)
 
 ### Checkout Flow
-![Checkout](./screenshots/checkout.png)
+![Checkout1]([./screenshots/checkout.png](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-checkout-2026-04-24-19_54_56.png))
 
 ---
 
