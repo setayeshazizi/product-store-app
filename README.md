@@ -1,4 +1,4 @@
-# 💎 LUXSTORE —  Product Store
+# 💎 LUXSTORE —  Product Store App
 
 A modern, high-performance React-based luxury e-commerce UI built with a scalable architecture, advanced state management, and premium UI/UX interactions.  
 Designed to demonstrate real-world frontend engineering patterns including state separation, async data handling, and production-grade UI design systems.
@@ -6,7 +6,7 @@ Designed to demonstrate real-world frontend engineering patterns including state
 ---
 
 ##  Live Demo
-🔗 [View Live Project](#) *(add your Vercel link here)*
+🔗 [View Live Project](#) *((https://product-store-app-tau.vercel.app/))*
 
 ---
 
