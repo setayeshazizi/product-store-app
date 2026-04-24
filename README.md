@@ -1,163 +1,212 @@
-# 💎 LUXSTORE —  Product Store App
+# LUXSTORE —  Product Store App
 
-A modern, high-performance React-based luxury e-commerce UI built with a scalable architecture, advanced state management, and premium UI/UX interactions.  
-Designed to demonstrate real-world frontend engineering patterns including state separation, async data handling, and production-grade UI design systems.
+A modern, high-performance React e-commerce application built as a full assignment project to demonstrate advanced state management concepts using:
+
+- Context API + useReducer
+- Redux Toolkit
+- React Query
+
+This project simulates a real-world luxury digital store experience with a premium UI/UX, scalable architecture, and production-level state handling patterns.
 
 ---
 
-##  Live Demo
-🔗 [View Live Project](https://product-store-app-tau.vercel.app/)
+## 🔗 Live Demo
+
+🌐 https://product-store-app-tau.vercel.app/
+
+---
+
+## 🎥 Demo Video
+
+📽️ *(Add your video link here — Loom / YouTube / MP4)*
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots here
+
+### 🏠 Home Page
+![Home](./screenshots/home.png)
+
+### 🛒 Cart Page
+![Cart](./screenshots/cart.png)
+
+### 📄 Product Details
+![Details](./screenshots/details.png)
+
+### 💳 Checkout Flow
+![Checkout](./screenshots/checkout.png)
 
 ---
 
 ##  Tech Stack
 
--  React (Vite)
-- Material UI v9
+- React (Vite)
+-  Material UI v9
 -  Framer Motion
 -  TanStack React Query v5
 -  Redux Toolkit
 -  Context API + useReducer
 -  LocalStorage Persistence
 -  DummyJSON API
--  Vercel Deployment
+-  Deployed on Vercel
 
 ---
 
-## Architecture Overview
+## State Management Architecture
 
-This project is built using a 3-layer state management architecture:
+This project is intentionally designed to separate different types of state:
 
-### 1. Global UI State
-Handled via Context API + useReducer
-- Theme (Dark / Light Mode)
-- Grid / List view toggle
-- UI preferences
+### 1.  Context API + useReducer (UI State)
+Used for global UI preferences:
+- Dark / Light Mode
+- Grid / List View
+- Category / Filter selection
 
-### 2. Server State
-Managed by TanStack React Query
+✔ Implemented with:
+- Context Provider
+- useReducer with action-based state updates
+- useContext consumption across components
+- No prop drilling
+
+---
+
+### 2. Redux Toolkit (Client State)
+Used for shopping cart logic:
+
+Features:
+- Add to cart
+- Remove from cart
+- Increase quantity
+- Decrease quantity
+- Clear cart
+- Total quantity calculation
+- Total price calculation
+- Persistent cart (localStorage sync)
+
+✔ Implemented with:
+- cartSlice
+- configureStore
+- useSelector / useDispatch
+
+---
+
+### 3.  React Query (Server State)
+Used for API data handling:
+
+Features:
 - Product fetching from DummyJSON API
-- Smart caching (staleTime, gcTime)
-- Retry handling with delay strategy
-- Auto refetch on reconnect
-- Skeleton loading system
+- Loading state handling (Skeleton UI)
+- Error handling with retry button
+- Cached queries (queryKey-based)
+- refetchOnReconnect enabled
 
-### 3. Client State
-Managed via Redux Toolkit
-- Cart system (add/remove/update quantity)
-- Total price & quantity calculations
-- Persistent storage via localStorage
+✔ Extra feature:
+- Product Details Page with dynamic routing
 
 ---
 
-## Features
+##  Features
 
-### UI/UX
-- Dark / Light theme toggle
-- Glassmorphism design system
-- Fully responsive layout (mobile → 4K)
-- Smooth Framer Motion animations
-- Staggered product animations
-- Skeleton loading states
-- Premium alert & snackbar system
-
-###  Shopping Experience
-- Add / remove products from cart
-- Quantity management (+ / -)
-- Persistent cart (localStorage)
-- Wishlist system
-- Related products section
+###  Home Page
+- Hero section with gradient title
+- Search bar (glassmorphism)
+- Category filter (chips)
+- Sorting options
+- Responsive product grid
 
 ###  Product System
-- Category filtering (9 categories)
-- Grid / List view toggle
-- Sorting functionality
-- Product search bar
-- Rating system with badges
+- Product cards with animations
+- Staggered grid loading
+- Rating system
+- Category badges
+- Add to cart button
 
-###  Checkout Flow
-- 3-step checkout process:
-  1. Shipping details
-  2. Payment details
-  3. Order confirmation
-- Order summary sidebar
-- Final success animation screen
+###  Product Details Page
+- Animated image section
+- Discount display
+- Feature badges:
+  - Free Shipping
+  - 30-Day Returns
+  - 2-Year Warranty
+  - Secure Payment
+- Wishlist system
+- Share (Web Share API)
+- Related products section
+
+###  Cart System
+- Quantity controls (+ / -)
+- Remove item animation
+- Sticky order summary
+- Tax + subtotal calculation
+- Clear cart option
+
+### Checkout Flow
+3-step checkout:
+1. Shipping Details
+2. Payment Information
+3. Order Confirmation
+
+Final success screen with animation.
 
 ---
 
-## Pages
+##  Assignment Requirements Mapping
 
--  Home (Hero + Filters + Product Grid)
-- Product Details
--  Cart
-- Checkout (Multi-step)
--  Success Page
+### Context API + useReducer
+Used for:
+- Theme (Dark / Light)
+- Layout (Grid / List)
+- Category filtering
+
+✔ Implemented via:
+- Context Provider
+- Reducer actions
+- Global UI state management
+
+---
+
+###  Redux Toolkit
+Used for:
+- Cart management system
+- Quantity control
+- Price calculations
+- Persistent storage
+
+✔ Implemented via:
+- cartSlice
+- Redux store
+- useSelector / useDispatch
+
+---
+
+###  React Query
+Used for:
+- Product fetching
+- API caching
+- Loading states
+- Error handling
+- Refetching strategy
+
+✔ Features:
+- queryKey-based caching
+- retry handling
+- staleTime optimization
+
+---
+
+##  Requirements Checklist
+
+- [x] Products fetched from API
+- [x] Loading state implemented
+- [x] Error state implemented
+- [x] Redux Toolkit cart system
+- [x] Context API + useReducer settings system
+- [x] Fully responsive UI
+- [x] State updates correctly across app
+- [x] Clean architecture & reusable components
 
 ---
 
 ## Folder Structure
-src/
-│
-├── api/              # API services
-├── components/       # Reusable UI components
-├── context/          # Theme & UI state management
-├── features/
-│   └── cart/         # Redux cart slice
-├── hooks/            # Custom hooks
-├── pages/            # Route pages
-├── store/            # Redux store
-└── utils/            # Helpers (e.g. calculateTotals)
----
-
-##  Performance Highlights
-
-- React Query caching strategy optimized
-- Lazy UI rendering with animation batching
-- LocalStorage sync without UI blocking
-- Minimal prop drilling (fully decoupled state)
-- Optimized re-renders via Redux selectors
-
----
-
-##  Key UI Highlights
-
-- Glassmorphism Navbar with animated diamond logo
--  Skeleton loaders with shimmer effect
-- Animated badges & hover transitions
--  Product cards with stagger animation
--  Sticky order summary in cart
--  Success animation after checkout
-
----
-
-##  Responsive Design
-
-Fully responsive across:
--  Mobile
-- Tablet
--  Laptop
--  Desktop (up to 4K)
-
----
-
-## API
-
-Powered by:
-- DummyJSON Products API  
-https://dummyjson.com/products
-
----
-
-##  Future Improvements
-
-- Stripe real payment integration
-- User authentication system
-- Backend for orders
-- Product reviews system
-- Admin dashboard
-
----
-
-##  License
-
-This project is licensed for educational and portfolio purposes.
