@@ -1,4 +1,4 @@
-# LUXSTORE —  Product Store App
+#💎LUXSTORE —  Product Store App
 
 A modern, high-performance React e-commerce application built as a full assignment project to demonstrate advanced state management concepts using:
 
@@ -10,13 +10,13 @@ This project simulates a real-world luxury digital store experience with a premi
 
 ---
 
-## 🔗 Live Demo
+## Live Demo
 
 🌐 https://product-store-app-tau.vercel.app/
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 📽️ *(Add your video link here — Loom / YouTube / MP4)*
 
