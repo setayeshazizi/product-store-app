@@ -26,16 +26,16 @@ This project simulates a real-world luxury digital store experience with a premi
 
 > Add your screenshots here
 
-### 🏠 Home Page
+###  Home Page
 ![Home](./screenshots/home.png)
 
-### 🛒 Cart Page
+### Cart Page
 ![Cart](./screenshots/cart.png)
 
-### 📄 Product Details
+### Product Details
 ![Details](./screenshots/details.png)
 
-### 💳 Checkout Flow
+### Checkout Flow
 ![Checkout](./screenshots/checkout.png)
 
 ---
@@ -210,3 +210,46 @@ Used for:
 ---
 
 ## Folder Structure
+src/
+│
+├── api/
+├── components/
+├── context/
+├── features/
+│   └── cart/
+├── hooks/
+├── pages/
+├── store/
+├── utils/
+└── App.jsx
+
+---
+
+## Performance Highlights
+
+- React Query caching strategy optimized
+- Minimal re-renders using Redux selectors
+- Smooth Framer Motion animations
+- LocalStorage persistence
+- Fully responsive layout
+
+---
+
+## How to Run Project
+
+```bash
+npm install
+npm run dev
+
+---
+
+ Future Improvements
+
+Authentication system
+Real payment gateway (Stripe)
+Admin dashboard
+Backend integration (Node/Express)
+Product reviews system
+
+ License
+This project is for educational purposes and assignment submission.
