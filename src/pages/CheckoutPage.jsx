@@ -53,6 +53,7 @@ const CheckoutPage = () => {
     cvv: "",
   });
   const [orderPlaced, setOrderPlaced] = useState(false);
+  const [finalTotal, setFinalTotal] = useState(null);
 
   const steps = ["Shipping", "Payment", "Confirmation"];
 
@@ -87,8 +88,10 @@ const CheckoutPage = () => {
   };
 
   const handlePlaceOrder = () => {
-    setOrderPlaced(true);
+    const totalWithTax = (totalPrice * 1.1).toFixed(2);
+    setFinalTotal(totalWithTax);
     dispatch(clearCart());
+    setOrderPlaced(true);
   };
 
   if (orderPlaced) {
@@ -129,7 +132,7 @@ const CheckoutPage = () => {
               variant="h5"
               sx={{ fontWeight: 800, color: "#00d2ff", mb: 4 }}
             >
-              ${(totalPrice * 1.1).toFixed(2)}
+              ${finalTotal}
             </Typography>
             <Button
               variant="contained"
