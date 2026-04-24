@@ -1,7 +1,9 @@
-🚀 Premium E-Commerce Storefront
+Product App Store
 A high-performance, visually stunning e-commerce application built with the MERN stack (React-based) focusing on luxury UI/UX, scalable state management, and fluid motion design.
+
 ⚡ Live Demo
 View Live Project (https://your-vercel-link.vercel.app/) | Report Bug (https://github.com/your-username/repo/issues)
+
 🛠 Technical Excellence
 This project demonstrates a professional-grade frontend architecture using the following stack:
 • Core: React 18 with Vite (for lightning-fast HMR).
@@ -10,6 +12,7 @@ This project demonstrates a professional-grade frontend architecture using the f
 • Styling & UI: Tailwind CSS & Material UI (MUI).
 • Animations: Framer Motion (orchestrated layouts and glassmorphism effects).
 • Icons: Lucide-React / Phosphor Icons.
+
 💎 Features & Functionalities
 • Sophisticated UI: Implementation of Glassmorphism and premium minimalist aesthetics.
 • Dynamic Product Grid: Custom CSS Grid logic providing a perfectly balanced 5-column layout.
